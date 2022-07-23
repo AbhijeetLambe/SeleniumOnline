@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="P04_ParallelExecution" parallel="tests" >
+  
+  <test thread-count="5" name="ParallelExecution1">
+  	<parameter name="browserName" value="chrome"/>
+  	<classes>
+  		<class name="pkg09_TestNG.P04_ParallelExecution"/>
+  	</classes>
+  </test> <!-- ParallelExecution -->
+  
+  <test thread-count="5" name="ParallelExecution2">
+  	<parameter name="browserName" value="firefox"/>
+  	<classes>
+  		<class name="pkg09_TestNG.P04_ParallelExecution"/>
+  	</classes>
+  </test> <!-- ParallelExecution -->
+  
+</suite> <!-- P04_ParallelExecution -->

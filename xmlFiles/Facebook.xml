@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="P03_Facebook">
+  <test thread-count="5" name="Facebook">
+    <classes>
+      <class name="pkg09_TestNG.P03_Facebook_NewAccount"/>
+      <class name="pkg09_TestNG.P03_Facebook_LoginPage"/>
+      <class name="pkg09_TestNG.P03_Facebook_ForgotPassword"/>
+    </classes>
+  </test> <!-- Facebook -->
+</suite> <!-- P03_Facebook -->
